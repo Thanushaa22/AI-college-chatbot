@@ -1,0 +1,28 @@
+[2025-06-25 18:33:12]
+User: hi
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+
+[2025-06-25 18:33:17]
+User: mca&#x27;
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+
+[2025-06-25 18:33:30]
+User: fees
+Bot: The MCA fee is ₹90,000 per year. Other courses vary.
+
+[2025-06-25 18:38:12]
+User: hello
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+
+[2025-06-25 18:40:03]
+User: mj
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+
+[2025-06-25 18:41:11]
+User: hi
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+
+[2025-06-25 18:41:15]
+User: hi
+Bot: I'm not sure, but you can contact the helpdesk at +91-9999999999.
+

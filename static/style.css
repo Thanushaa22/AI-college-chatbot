@@ -1,0 +1,135 @@
+/* ===== Reset and Base Styling ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #7cdeeb, #f9c9ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ===== Chat Container ===== */
+#chatbox {
+  background: #f1eff1;
+  width: 100%;
+  max-width: 450px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 2px solid #76ade7;
+}
+
+/* ===== Header ===== */
+#chatHeader {
+  background-color: #34b2ec;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #86b7eb;
+}
+
+/* ===== Message Area ===== */
+#messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+
+#messages::-webkit-scrollbar {
+  width: 6px;
+}
+#messages::-webkit-scrollbar-thumb {
+  background: #faf7f8;
+  border-radius: 6px;
+}
+
+/* ===== Message Bubbles ===== */
+.message {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.message.user {
+  background: #bbf093;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background: #c3dff7;
+  align-self: flex-start;
+}
+
+.message.typing {
+  font-style: italic;
+  background: #f0f0f0;
+  color: #555;
+}
+
+.message.error {
+  background: #e6c4c4;
+  color: #900;
+}
+
+/* ===== Input Area ===== */
+#inputContainer {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background: #fbeefc;
+}
+
+#userInput {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  margin-right: 8px;
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #00a2ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  #chatbox {
+    width: 95%;
+    height: 95vh;
+  }
+
+  button,
+  #userInput {
+    font-size: 14px;
+  }
+}
